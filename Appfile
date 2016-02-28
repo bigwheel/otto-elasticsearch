@@ -4,6 +4,6 @@ application {
 }
 
 customization {
-    image = "elasticsearch:1.7"
+    image = "elasticsearch:latest"
     run_args = "-p 9200:9200 -p 9300:9300"
 }
