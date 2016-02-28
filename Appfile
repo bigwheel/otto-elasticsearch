@@ -3,7 +3,7 @@ application {
     type = "docker-external"
 }
 
-customization "docker" {
+customization {
     image = "elasticsearch:1.7"
     run_args = "-p 9200:9200 -p 9300:9300"
 }
